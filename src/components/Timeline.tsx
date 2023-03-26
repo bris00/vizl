@@ -134,8 +134,6 @@ function Chart({
         }, [])
     );
 
-    const dbg = function <T>(x: T) { return (console.debug(x), x) };
-
     const events: Data[] = useMemo(() => {
         return JSON.parse(atob(timeline || ""));
     }, [timeline]);
