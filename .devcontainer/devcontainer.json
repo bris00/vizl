@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/docker-existing-dockerfile
+{
+    "name": "devcontainer-project",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    
+    "userEnvProbe": "loginShell",
+    "updateRemoteUserUID": false,
+  
+    // build development environment on creation
+    "onCreateCommand": "direnv exec . 'echo' 'done loading nix dev environment'",
+  
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+      // Select nix environment
+      "arrterian.nix-env-selector",
+      "Rubymaniac.vscode-direnv",
+      
+      // Nix
+      "jnoortheen.nix-ide",
+      
+      // Docker compose / Dockerfile
+      "ms-azuretools.vscode-docker",
+    ],
+  }

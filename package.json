@@ -1,0 +1,50 @@
+{
+  "name": "vizl",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "kill-port": "kill-port 5173"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.0.4",
+    "@types/d3-time-format": "^4.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "@visx/annotation": "^3.0.1",
+    "@visx/axis": "^3.1.0",
+    "@visx/brush": "^3.0.1",
+    "@visx/curve": "^3.0.0",
+    "@visx/glyph": "^3.0.0",
+    "@visx/gradient": "^3.0.0",
+    "@visx/grid": "^3.0.1",
+    "@visx/group": "^3.0.0",
+    "@visx/mock-data": "^3.0.0",
+    "@visx/pattern": "^3.0.0",
+    "@visx/responsive": "^3.0.0",
+    "@visx/scale": "^3.0.0",
+    "@visx/shape": "^3.0.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "bootstrap": "^5.2.3",
+    "d3-array": "^3.2.2",
+    "d3-time-format": "^4.1.0",
+    "hdbscanjs": "^1.0.12",
+    "pretty-ms": "^8.0.0",
+    "react-bootstrap": "^2.7.2",
+    "react-router-dom": "^6.8.1",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "optionalDependencies": {
+    "kill-port-process": "^3.1.0"
+  }
+}
