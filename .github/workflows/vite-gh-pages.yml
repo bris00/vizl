@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node.js environment
         uses: DerYeger/yarn-setup-action@v1.0.1
       - run: yarn install --frozen-lockfile
-      - run: yarn run build
+      - run: yarn run fbuild
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 

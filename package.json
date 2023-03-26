@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "fbuild": "vite build",
     "preview": "vite preview",
     "kill-port": "kill-port 5173"
   },
